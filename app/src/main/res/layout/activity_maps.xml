@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".MAPs.MapsActivity">
+<fragment
+    android:id="@+id/map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_above="@id/btnSentCurrentLocation"
+    />
+
+<Button
+    android:id="@+id/btnSentCurrentLocation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sent Current Location"
+    android:textAllCaps="false"
+    android:layout_alignParentBottom="true"
+    android:background="@color/colorPrimaryDark"
+    android:textColor="@android:color/white"
+    android:textSize="18sp"
+    />
+</RelativeLayout>

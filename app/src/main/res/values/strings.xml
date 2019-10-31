@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SkillUpFb</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="titleNo_hint">Title</string>
+    <string name="where_is_this_note_for_hint">Where is this note for?</string>
+    <string name="time_hint">Time</string>
+    <string name="is_there_anything_else_you_would_like_to_say_hint">Is there anything else you would like to say?</string>
+    <string name="save_btn">Save</string>
+    <string name="dont_have_notes">You Don\'t have Any note Please Add notes to able to show ?</string>
+</resources>
